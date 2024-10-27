@@ -3,6 +3,11 @@ A bash script to set up packages for Neovim Mason in Termux. This script solves 
 
 ## How to Use
 
+### Step 0: Ensure you have "which" installed on termux
+```bash
+pkg install which
+```
+
 ### Step 1: Copy the script Directly to `/data/data/com.termux/files/usr/bin/install-in-mason`
 Run the following command to copy the script directly into `/data/data/com.termux/files/usr/bin/install-in-mason`, making it immediately usable:
 
