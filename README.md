@@ -3,7 +3,7 @@ A bash script to set up packages for Neovim Mason in Termux. This script solves 
 
 ## How to Use
 
-### Step 1: Clone the Repository Directly to `/usr/local/bin`
+### Step 1: Clone the Repository Directly to `$HOME/.local/bin/mason-package-setup`
 Run the following command to clone the script directly into `$HOME/.local/bin/mason-package-setup`, making it immediately usable:
 
 ```bash
