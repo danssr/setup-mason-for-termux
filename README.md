@@ -26,4 +26,4 @@ install-in-mason lua-language-server
 
 ### Requirements
 - Termux with `apk` as the package manager
-- Neovim with Mason installed
+- Neovim with Mason installed (Mason is automatically installed if you use LazyVim or any similar setup)
