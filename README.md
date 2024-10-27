@@ -4,17 +4,17 @@ A bash script to set up packages for Neovim Mason in Termux. This script solves 
 ## How to Use
 
 ### Step 1: Clone the Repository Directly to `/usr/local/bin`
-Run the following command to clone the script directly into `/usr/local/bin`, making it immediately usable:
+Run the following command to clone the script directly into `$HOME/.local/bin/mason-package-setup`, making it immediately usable:
 
 ```bash
-git clone --depth=1 https://github.com/Amirulmuuminin/mason-package-setup.git /usr/local/bin/mason-package-setup
+git clone https://github.com/Amirulmuuminin/setup-mason-for-termux.git $HOME/.local/bin/mason-package-setup
 ```
 
 ### Step 2: Make the Script Executable
 Set the executable permissions:
 
 ```bash
-chmod +x /usr/local/bin/mason-package-setup/install-in-mason.sh
+chmod +x $HOME/.local/bin/mason-package-setup/install-in-mason.sh
 ```
 
 ### Step 3: Run the Script
